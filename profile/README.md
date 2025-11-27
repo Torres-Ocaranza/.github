@@ -5,7 +5,7 @@
 **Soluciones tecnológicas para la industria del acero y construcción**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Organization-black?style=flat-square&logo=github)](https://github.com/Torres-Ocaranza)
-[![Repositories](https://img.shields.io/badge/Repositories-14-blue?style=flat-square)](https://github.com/orgs/Torres-Ocaranza/repositories)
+[![Repositories](https://img.shields.io/badge/Repositories-16-blue?style=flat-square)](https://github.com/orgs/Torres-Ocaranza/repositories)
 
 *Desarrollo de software especializado en gestión documental, trazabilidad logística y sistemas de control para proyectos industriales*
 
