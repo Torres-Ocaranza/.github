@@ -268,6 +268,17 @@ Para solicitar acceso a los repositorios privados, contacta con los administrado
 
 </div>
 
+### 👥 Equipo de Tecnología
+
+<div align="center">
+
+| Nombre | Cargo | Email |
+|--------|-------|-------|
+| **Roberto Becerra** | Gerente Informática y Procesos | [![Email](https://img.shields.io/badge/Email-rbecerra@torresocaranza.cl-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rbecerra@torresocaranza.cl) |
+| **René Auger** | Jefe de Soporte e Infraestructura – Desarrollo TI | [![Email](https://img.shields.io/badge/Email-rauger@torresocaranza.cl-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rauger@torresocaranza.cl) |
+
+</div>
+
 ---
 
 <div align="center">
