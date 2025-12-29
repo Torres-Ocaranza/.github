@@ -18,9 +18,10 @@
 
 <div align="center">
 
-![GitHub Org's stars](https://img.shields.io/github/stars/Torres-Ocaranza?style=social)
-![GitHub followers](https://img.shields.io/github/followers/Torres-Ocaranza?style=social)
-![GitHub repos](https://img.shields.io/badge/Repositorios-16-blue?style=flat-square&logo=github)
+![GitHub Org's stars](https://img.shields.io/github/stars/Torres-Ocaranza?style=social&logo=github)
+![GitHub followers](https://img.shields.io/github/followers/Torres-Ocaranza?style=social&logo=github)
+![GitHub repos](https://img.shields.io/badge/Repositorios-16-blue?style=flat-square&logo=github&logoColor=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/Torres-Ocaranza/.github?style=flat-square&logo=github&logoColor=white)
 
 </div>
 
@@ -30,7 +31,7 @@
 
 <div align="center">
 
-**Torres Ocaranza** es una empresa especializada en enfierradura, suministro e instalación de acero para construcción, con más de **39 años de experiencia** en el mercado nacional.
+**Torres Ocaranza** es una empresa especializada en enfierradura, suministro e instalación de acero para construcción, con más de **42 años de experiencia** en el mercado nacional (desde 1983).
 
 </div>
 
@@ -64,6 +65,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 
 #### [AceroConexionDossier](https://github.com/Torres-Ocaranza/AceroConexionDossier)
 **Aplicación de escritorio Python** para la carga, validación y gestión automatizada de documentos de certificación de calidad en S3. Sistema con optimizaciones avanzadas de rendimiento y detección automática de recursos del sistema.
+
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS_S3-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
@@ -195,6 +198,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 #### [mobiletrackinggps](https://github.com/Torres-Ocaranza/mobiletrackinggps)
 **Aplicación React Native** para choferes que necesitan iniciar viajes, enviar guías y transmitir ubicación GPS en tiempo real. Sistema completo con seguimiento continuo foreground/background.
 
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 
@@ -221,6 +226,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 #### [CubigestFichaObra2](https://github.com/Torres-Ocaranza/CubigestFichaObra2)
 **Sistema integral de gestión empresarial v2.0** para Torres Ocaranza. Aplicación web ASP.NET multicapa que centraliza el ciclo productivo desde recepción de órdenes hasta despacho final. 9 módulos principales con integración a sistemas externos.
 
+![Version](https://img.shields.io/badge/version-2.0-blue?style=flat-square)
+
 ![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
@@ -237,23 +244,24 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 <td width="50%">
 
 #### [OBRACIVIL](https://github.com/Torres-Ocaranza/OBRACIVIL)
-**Sistema integral Windows Forms** para gestión de obras civiles. Aplicación de escritorio VB.NET con múltiples módulos especializados, trazabilidad de coladas, generación de reportes y gestión de piezas.
+**Sistema Windows Forms** para gestión de obras civiles. Aplicación de escritorio VB.NET especializada en ingreso y gestión de piezas de acero con cálculo automático de pesos, soporte para piezas variables y generación de imágenes con cotas.
+
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
 
 ![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![Windows Forms](https://img.shields.io/badge/Windows_Forms-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 ![Crystal Reports](https://img.shields.io/badge/Crystal_Reports-FF6B35?style=flat-square&logo=crystal-reports&logoColor=white)
 
-- 🏗️ Gestión completa de obras civiles con múltiples módulos especializados
-- 📦 Administración de piezas (agregar, clonar, eliminar, corrección de formas)
-- 🔄 Trazabilidad de coladas con seguimiento completo
-- 📋 Gestión de ITs (Instrucciones de Trabajo) con impresión
-- 📊 Generación de reportes con Crystal Reports (múltiples módulos)
-- 📄 Actas de entrega y gestión de planos digitados
-- 🔗 Integración con servicios web corporativos (Service References)
-- 📥 Ingreso de datos desde Excel y gestión de ingresos extra
-- 🏷️ Sistema de códigos de barras (CodeBar)
-- 📈 Muestreo y módulos de encabezados
+- 🏗️ Ingreso de piezas con formas geométricas (ID de forma, cotas a-n, ángulos k-n) y cálculo automático de pesos
+- 📐 Piezas variables: barras con cotas variables (formato "valor1/valor2"), cálculo de promedios y múltiples variantes
+- 🏭 Soporte obras Bechtel y normales: formatos de ingreso diferenciados (Paquete/PiezasXMarca vs Item/Cantidad)
+- ⚖️ Cálculo según Norma 353: aplicación de 1% adicional, cálculo de largo real con descuentos por desarrollo y dobleces
+- 🔌 Gestión de conectores: validación de diámetros según tipo, soporte para conectores izquierdo/derecho
+- 📊 Hojas de despiece: organización por Obra/Plano/Figura/Nivel/Elemento/Ubicación, grabación vía servicios web
+- 🖼️ Generación de imágenes: renderizado de formas con cotas y ángulos superpuestos, guardado en base de datos
+- 📋 Módulos adicionales: gestión de ITs, trazabilidad de coladas, reportes Crystal Reports, códigos de barras
+- 🔗 Integración con servicios web corporativos (Px_Ws) para obras, diámetros, formas y grabación de piezas
 
 </td>
 </tr>
@@ -289,6 +297,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 #### [Metalurgica](https://github.com/Torres-Ocaranza/Metalurgica)
 **Sistema Windows Forms** para gestión operativa metalúrgica: recepción de coladas, producción multi-máquina, despacho (bodega y camión) e integración con ERP/INET. Aplicación de escritorio con arquitectura en 3 capas y ruteo por tótem/máquina.
 
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
+
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Windows Forms](https://img.shields.io/badge/Windows_Forms-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
@@ -310,6 +320,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 #### [EstadosdePagos](https://github.com/Torres-Ocaranza/EstadosdePagos)
 **Sistema de Gestión de Estados de Pago (Proyecto D)**. Cliente Windows Forms para gestión del ciclo de vida completo de Estados de Pago (EP) para obras/contratos. Sistema con generación de reportes, adjuntos automáticos y aprobación cliente.
 
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
+
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Windows Forms](https://img.shields.io/badge/Windows_Forms-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
@@ -328,6 +340,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 
 #### [ControlDimencional](https://github.com/Torres-Ocaranza/ControlDimencional)
 **Sistema de Control Dimensional (Proyecto D)**. Aplicación web ASP.NET Web Forms para control y trazabilidad dimensional de piezas/paquetes en planta, con generación de informes PDF y notificación por correo. Sistema QA/QC con almacenamiento de imágenes en base de datos.
+
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
 
 ![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![ASP.NET Web Forms](https://img.shields.io/badge/ASP.NET_Web_Forms-512BD4?style=flat-square&logo=.net&logoColor=white)
@@ -365,6 +379,8 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 #### [CUBILINK-CERRILLOS](https://github.com/Torres-Ocaranza/CUBILINK-CERRILLOS)
 **Sistema de automatización industrial** para monitoreo y control de 12 líneas de corte en planta Cerrillos. Comunicación PLC Siemens S7 con SQL Server y interfaz gráfica PyQt5.
 
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![snap7](https://img.shields.io/badge/snap7-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -382,18 +398,21 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 <td width="50%">
 
 #### [Gestor_OC_Gerdau](https://github.com/Torres-Ocaranza/Gestor_OC_Gerdau)
-**Sistema Windows Forms** para gestión integral de órdenes de compra de Gerdau (proveedor de materias primas). Aplicación de escritorio con módulos especializados y envíos automáticos.
+**Sistema Windows Forms** para gestión integral de órdenes de compra de Gerdau (proveedor de materias primas). Aplicación de escritorio C# que automatiza el ciclo completo desde obtención de datos hasta envío vía FTP y notificaciones por correo.
+
+![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Windows Forms](https://img.shields.io/badge/Windows_Forms-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 ![Crystal Reports](https://img.shields.io/badge/Crystal_Reports-FF6B35?style=flat-square&logo=crystal-reports&logoColor=white)
 
-- 📋 Gestión completa de órdenes de compra de Gerdau
-- 🔄 Sistema de envíos automáticos (EnviosAutomaticos)
-- 💰 Gestión de cambios de precios masivos
+- 📋 Gestión de órdenes de compra: obtención de datos, creación de archivos CSV con formato Gerdau, subida vía FTP
+- 📧 Notificaciones automáticas por correo electrónico del estado de envío de OC
+- 🔄 Envíos automáticos programados: Packing Lists (PL) electrónicos, Bill of Materials (BOM), informes de línea de crédito
+- ✅ Módulo de Calidad: certificación de viajes, gestión de lotes, descarga de certificados PDF desde IDIEM/CAP
 - 📊 Módulos especializados: Calidad, Facturación, Logística, Pago, Producción
-- 🔗 Integración con servicios web corporativos (Service References)
+- 🔗 Integración con servicios web corporativos (WS_Gerdau, WS_TO) y FTP
 - 📄 Generación de reportes con Crystal Reports
 
 </td>
@@ -449,6 +468,7 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
@@ -468,9 +488,11 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 | 📱 **React Native** | 1 aplicación móvil (GPS Tracking) |
 | 🔒 **Visibilidad** | Repositorios privados (desarrollo interno) |
 | 🏭 **Capacidad** | +80.000 toneladas anuales |
-| 📅 **Experiencia** | +39 años en el mercado |
+| 📅 **Experiencia** | +42 años en el mercado (desde 1983) |
 | 👥 **Usuarios Activos** | 100+ usuarios concurrentes (Cubigest) |
 | ⚡ **Uptime** | 99.5% disponibilidad (sistemas críticos) |
+| 🌐 **Plantas** | 4 plantas estratégicamente ubicadas en Chile |
+| 🎯 **Áreas de Negocio** | Minería, Infraestructura, Energía, Salud, Inmobiliario |
 
 </div>
 
@@ -493,10 +515,13 @@ Para solicitar acceso a los repositorios privados, contacta con los administrado
 ## 📝 Notas
 
 - ✅ Estos repositorios contienen **soluciones internas** desarrolladas para uso exclusivo de Torres Ocaranza
-- 🔄 Los proyectos están en constante desarrollo y mejora
-- 📚 Se siguen buenas prácticas de desarrollo y arquitectura limpia
+- 🔄 Los proyectos están en constante desarrollo y mejora continua
+- 📚 Se siguen buenas prácticas de desarrollo y arquitectura limpia (DDD Pragmático, Clean Architecture)
 - 📖 Documentación técnica disponible en cada repositorio
 - ⚡ Sistemas optimizados para producción y pruebas
+- 🔒 Todos los repositorios activos son privados y requieren permisos de acceso
+- 🚀 Versionado semántico (SemVer) aplicado en proyectos modernos
+- 🧪 Testing implementado en proyectos críticos (Jest, pytest, React Testing Library)
 
 ---
 
@@ -529,7 +554,7 @@ Para solicitar acceso a los repositorios privados, contacta con los administrado
 
 ### **Desarrollado con ❤️ por Torres Ocaranza**
 
-*Última actualización: Diciembre 2024*
+*Última actualización: Enero 2025*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Torres--Ocaranza-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Torres-Ocaranza)
 
