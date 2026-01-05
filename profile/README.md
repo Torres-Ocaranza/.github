@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 🏢 Torres Ocaranza
 
@@ -554,7 +554,7 @@ Para solicitar acceso a los repositorios privados, contacta con los administrado
 
 ### **Desarrollado con ❤️ por Torres Ocaranza**
 
-*Última actualización: Enero 2025*
+*Última actualización: Enero 2026*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Torres--Ocaranza-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Torres-Ocaranza)
 
