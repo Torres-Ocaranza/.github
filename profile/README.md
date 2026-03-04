@@ -21,7 +21,7 @@
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/Torres-Ocaranza?style=social&logo=github)
 ![GitHub followers](https://img.shields.io/github/followers/Torres-Ocaranza?style=social&logo=github)
-![GitHub repos](https://img.shields.io/badge/Repositorios-17-blue?style=flat-square&logo=github&logoColor=white)
+![GitHub repos](https://img.shields.io/badge/Repositorios-14-blue?style=flat-square&logo=github&logoColor=white)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Torres-Ocaranza/.github?style=flat-square&logo=github&logoColor=white)
 
 </div>
@@ -131,85 +131,6 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 - 🚀 Code-splitting (vendor chunks), reconexión inteligente y optimizaciones de build
 - 🌐 Desplegado en Cloudflare Workers con SPA routing y diseño completamente responsive
 - 🔗 Integración completa con Acero-Back-v2, sincronización manual de obras y ESLint automático
-
-</td>
-<td width="50%">
-
-#### [TransportManager-backend](https://github.com/Torres-Ocaranza/TransportManager-backend)
-**Backend Node.js/Express v1.9.6** con arquitectura en capas (DDD Pragmático) para sistema de seguimiento GPS. Soporte dual SQLite/PostgreSQL, WebSocket en tiempo real, procesamiento OCR con BullMQ y sistema completo de despachadores.
-
-![Version](https://img.shields.io/badge/version-1.9.6-blue?style=flat-square)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-- 📍 Seguimiento GPS en tiempo real con WebSocket/Socket.IO (rooms, tracking continuo foreground/background)
-- 🔐 Seguridad: JWT con refresh tokens (HTTP-only cookies), 2FA (TOTP), validación de archivos (magic numbers)
-- 📊 Sistema RBAC con permisos granulares por módulo/acción, permisos directos por usuario y múltiples roles
-- 📄 Procesamiento OCR avanzado con AWS Textract, cola BullMQ/Redis y validación de guías (despachador vs conductor)
-- 🚛 Sistema completo de despachadores (subida fotos/guías, asignación por RUT, validación OCR)
-- 📊 Logs de auditoría mejorados (13 acciones críticas) con filtros avanzados (usuario, acción, entidad, fecha)
-- ☁️ Almacenamiento en S3 con estructura organizada (`Despacho/{obra}_{fecha}/`), URLs firmadas y emails con adjuntos
-- 🔄 Soporte dual SQLite/PostgreSQL con migración automática y compatibilidad total
-- 🛡️ Protección: SQL Injection, rate limiting, headers de seguridad (Helmet) y validación Zod
-- 📧 Sistema de notificaciones por email (manual guides, trip completion), password reset y 2FA backup codes
-
-</td>
-</tr>
-</table>
-
----
-
-### 🚛 Gestión Logística y Transporte
-
-<table>
-<tr>
-<td width="50%">
-
-#### [TransportManager-frontend](https://github.com/Torres-Ocaranza/TransportManager-frontend)
-**Frontend dual v1.12.2** con panel administrativo React y visualización GPS en tiempo real. Sistema completo con replay de viajes históricos, gestión de despachadores y sistema mejorado de auditoría.
-
-![Version](https://img.shields.io/badge/version-1.12.2-blue?style=flat-square)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
-
-- 🔗 Panel administrativo React con autenticación 2FA (TOTP y códigos de respaldo) y login alternativo solo con Authenticator
-- 🗺️ Visualización GPS en tiempo real con Leaflet (clustering, marcadores personalizados, eliminación automática de viajes completados)
-- 📍 Sistema de replay de viajes históricos (velocidad 0.25x-32x, barra de progreso, selector de viajes con filtros)
-- 🚛 Gestión completa de viajes, choferes, transportistas (con campos de empresa) y despachadores
-- 📋 Gestión de guías de despacho con OCR, validación de guías faltantes, gestión manual y edición de números
-- 📊 Dashboard con métricas en tiempo real, estadísticas e indicadores de estado online/offline
-- 🔐 Sistema RBAC con permisos granulares, permisos directos por usuario, múltiples roles y sucursales
-- 📝 Logs de auditoría mejorados (filtros por usuario, acción, entidad, fecha) con 13 acciones críticas registradas
-- ⏱️ UX avanzada: timeout de inactividad con advertencia, tours interactivos de ayuda y diseño completamente responsive
-- 🗺️ Integraciones: Google Maps Places Autocomplete, sistema de ayuda paso a paso y PWA para GPS
-
-</td>
-<td width="50%">
-
-#### [mobiletrackinggps](https://github.com/Torres-Ocaranza/mobiletrackinggps)
-**Aplicación React Native** para choferes que necesitan iniciar viajes, enviar guías y transmitir ubicación GPS en tiempo real. Sistema completo con seguimiento continuo foreground/background.
-
-![Version](https://img.shields.io/badge/version-latest-blue?style=flat-square)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-
-- 📍 Seguimiento GPS continuo (foreground/background) con transmisión en tiempo real
-- 🚛 Inicio y término de viajes con carga de guías de despacho
-- 📋 Sistema de despachador con acceso por RUT, subida de fotos y guías
-- 🔄 Persistencia local y sincronización offline para operación sin conexión
-- 📊 Integración REST/WebSocket con backend para comunicación en tiempo real
-- ✅ Validaciones de RUT, permisos y ubicación antes de operaciones críticas
-- 🔐 Autenticación con manejo de sesión y renovación automática de tokens
 
 </td>
 </tr>
@@ -480,12 +401,11 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 
 | Métrica | Valor |
 |---------|-------|
-| 📦 **Repositorios** | 17 totales (16 privados + 1 público .github) |
+| 📦 **Repositorios** | 14 totales (13 privados + 1 público .github) |
 | 📖 **Documentación** | 100% de repositorios con documentación técnica completa |
 | 🐍 **Python** | 3 proyectos (AceroConexionDossier, Optisteel, CUBILINK-CERRILLOS) |
-| 🔷 **TypeScript/JavaScript** | 5 proyectos modernos (Backend/Frontend NestJS, React, Express) |
+| 🔷 **TypeScript/JavaScript** | 2 proyectos modernos (Backend/Frontend NestJS, React) |
 | 💎 **C#/VB.NET** | 8 sistemas especializados (ASP.NET MVC/Web Forms, Windows Forms) |
-| 📱 **React Native** | 1 aplicación móvil (GPS Tracking) |
 | 🔒 **Visibilidad** | Repositorios privados (desarrollo interno) |
 | 🏭 **Capacidad** | +80.000 toneladas anuales |
 | 📅 **Experiencia** | +42 años en el mercado (desde 1983) |
@@ -502,7 +422,7 @@ Los repositorios en esta organización contienen **soluciones internas de softwa
 
 <div align="center">
 
-⚠️ **Los 16 repositorios activos son privados** y requieren permisos de acceso a la organización.
+⚠️ **Los 13 repositorios activos son privados** y requieren permisos de acceso a la organización.
 
 El repositorio [`.github`](https://github.com/Torres-Ocaranza/.github) es público y contiene configuración, plantillas y este perfil de organización.
 
